@@ -1,3 +1,5 @@
+// Freeman, E., & Robson, E. (2014). Head first JavaScript programming. Beijing: OReilly.
+
 var randomLoc = Math.floor(Math.random() * 5);
 var location1 = randomLoc;
 var location2 = location1 + 1;
