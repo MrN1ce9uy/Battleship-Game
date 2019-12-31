@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Battleship</title>
-</head>
-<body>
-    <h1>Play battleship!</h1>
-    <script src="battleship.js"></script>
-</body>
+<!-- Freeman, E., & Robson, E. (2014). Head first JavaScript programming. Beijing: OReilly.-->
+<!-- This code is taught in the book referenced above. -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Battleship</title>
+        <style>
+        body { 
+            background-color: black;
+        }
+
+        div#board {
+            position: relative;
+            width: 1024px;
+            height: 863px;
+            margin: auto;
+            background: url("board.jpg") no-repeat;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="board">
+
+        </div>
+        <script src="battleship.js"></script>
+    </body>
 </html>
