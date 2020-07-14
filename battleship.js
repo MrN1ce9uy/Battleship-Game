@@ -1,4 +1,4 @@
-// Freeman, E., & Robson, E. (2014). Head first JavaScript programming. Beijing: OReilly.
+// Freeman, E., & Robson, E. (2014). Head first JavaScript programming. OReilly.
 // This code is taught in the book referenced above.  
 
 var randomLoc = Math.floor(Math.random() * 5);
