@@ -11,7 +11,7 @@
         <!--Javascript.-->
         <script> 
             function mainBattleship() {   
-                //Declare global variables.
+                //Declare variables.
                 var randomLoc = Math.floor(Math.random() * 5);
                 var location1 = randomLoc;
                 var location2 = location1 + 1;
@@ -51,6 +51,7 @@
                 alert(stats);
                 }
         </script>
+
         <!--Cascading Style Sheet.-->
         <style>
         body { 
@@ -100,6 +101,7 @@
         <button onclick="mainBattleship()">Play Battleship!</button>
         <div id="board">
             <div id="messageArea"></div>
+
             <table>
                 <tr>
                     <td id="00"></td><td id="01"></td><td id="02"></td><td id="03"></td><td id="04"></td><td id="05"></td><td id="06"></td>
@@ -123,6 +125,7 @@
                     <td id="60"></td><td id="01"></td><td id="02"></td><td id="03"></td><td id="04"></td><td id="05"></td><td id="06"></td>
                 </tr>
             </table>
+
         </div>
         
     </body>
