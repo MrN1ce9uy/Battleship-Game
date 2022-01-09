@@ -1,3 +1,5 @@
+# This was re-written based on the JavaScript version within this GitHub repository.
+
 # Import modules
 import math
 import random
